@@ -1,0 +1,1 @@
+el krs.sh es el cli y el otro archivo es el script para montar y desmontar 
