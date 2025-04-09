@@ -14,7 +14,7 @@ echo "Adivinando tu nombre..."
 
 sleep 3
 
-echo "Tu nombre es $nombre $apellido"
+echo "Tu nombre es $nombre $apellido gracias"
 
 string="Es de tipo texto"
 decimales=10
