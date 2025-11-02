@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script para listar los dispositivos conectados con nombre, tamaño y número de dispositivo
+# Script para listar los dispositivos conectados con nombre, tamaño y número de dispositivo programado en bash
 
 echo "Listando los  dispositivos conectados..."
 
