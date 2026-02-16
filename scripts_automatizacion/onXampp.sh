@@ -1,3 +1,4 @@
+#!/bin/bash 
 # Este es un script para el control de Xampp en un sistema Linux
 # 
 # Este script es capaz de funciona en cualquier distro solo teniendo 
