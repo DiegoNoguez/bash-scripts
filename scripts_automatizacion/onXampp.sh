@@ -35,7 +35,6 @@ while true; do
         3)
             echo "Revisando status del servicio..."
             sudo /opt/lampp/lampp status
-
             ;;
         4)
             echo "Reiniciando el servicio de Xampp"
@@ -49,7 +48,11 @@ while true; do
         5)
             echo "Saliendo del script..."
             sleep 5
+            echo "Regresando al Script maestro..."
+            sleep 5
+            clear
             break # salida dle bucle.
+            ;;
             
         *)
             echo "Opción no valida"
