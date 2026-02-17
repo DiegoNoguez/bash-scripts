@@ -4,7 +4,7 @@
 # script en mi terminal. 
 
 # Varibales
-menu="1)Gestión de Xampp"
+menu="1)Gestión de Xampp \n5)Salir"
 tiempo_Dormir=5
 
 # Lógica
@@ -20,8 +20,14 @@ while true; do
             clear
             ./onXampp.sh
             ;;
-        *)
-
+        5) 
+            echo "Saliendo del script..."
+            sleep $tiempo_Dormir
+            clear 
             break
+            ;;
+        *)
+            echo "Operación invalida"
+            
     esac 
 done
