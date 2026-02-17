@@ -22,6 +22,7 @@ while true; do
             sleep 5 
             echo "Regresando al menu .."
             sleep 2  
+            clear
             ;;
         2)
             echo "Apagando xampp"
@@ -35,6 +36,8 @@ while true; do
         3)
             echo "Revisando status del servicio..."
             sudo /opt/lampp/lampp status
+            sleep 6
+            clear
             ;;
         4)
             echo "Reiniciando el servicio de Xampp"
@@ -44,6 +47,7 @@ while true; do
             sleep 2
             echo "Regresando al menu ..."
             sleep 2 
+            clear 
             ;;
         5)
             echo "Saliendo del script..."
@@ -58,6 +62,7 @@ while true; do
             echo "Opción no valida"
             opcion=0
             echo -e "\n"
+            clear 
             ;;
     esac 
 done

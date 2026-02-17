@@ -8,6 +8,10 @@ menu="1)Gestión de Xampp \n5)Salir"
 tiempo_Dormir=5
 
 # Lógica
+echo "Ingresando al directorio General.."
+sleep 3
+cd /home/SpringyB6/Documents/bash-scripts/scripts_automatizacion/
+
 while true; do 
     figlet "Menu Maestro" 
     echo "Selecciona el servicio que deseas iniciar dentro del menu de opciones"
@@ -17,8 +21,8 @@ while true; do
         1)
             echo "Ejecutando el servicio..."
             sleep $tiempo_Dormir
-            clear
             ./onXampp.sh
+            clear 
             ;;
         5) 
             echo "Saliendo del script..."
@@ -28,6 +32,7 @@ while true; do
             ;;
         *)
             echo "Operación invalida"
+            ;;
             
     esac 
 done
