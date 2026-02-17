@@ -61,8 +61,7 @@ while true; do
         *)
             echo "Opción no valida"
             opcion=0
-            echo -e "\n"
-            clear 
+            echo -e "\n" 
             ;;
     esac 
 done

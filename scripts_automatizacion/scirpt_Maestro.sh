@@ -4,7 +4,7 @@
 # script en mi terminal. 
 
 # Varibales
-menu="1)Gestión de Xampp \n5)Salir"
+menu=" 1)Gestión de Xampp\n 5)Salir"
 tiempo_Dormir=5
 
 # Lógica
@@ -21,8 +21,8 @@ while true; do
         1)
             echo "Ejecutando el servicio..."
             sleep $tiempo_Dormir
+            clear
             ./onXampp.sh
-            clear 
             ;;
         5) 
             echo "Saliendo del script..."
