@@ -4,7 +4,7 @@
 # script en mi terminal. 
 
 # Varibales
-menu=" 1)Gestión de Xampp\n 5)Salir"
+menu=" 1)Gestión de Xampp\n 2)Docker\n 5)Salir"
 tiempo_Dormir=5
 
 # Lógica
